@@ -2,7 +2,7 @@
 
 from flask import Flask, request, render_template
 import os
-from predict import predict
+from .predict import predict
 
 app = Flask(__name__)
 UPLOAD_FOLDER = 'uploads'
