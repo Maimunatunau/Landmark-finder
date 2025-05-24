@@ -1,0 +1,15 @@
+<!-- src/templates/result.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+</head>
+<body>
+    <h2>Prediction Result:</h2>
+    <p><strong>Landmark:</strong> {{ label }}</p>
+    <p><strong>Confidence:</strong> {{ prob }}</p>
+    <img src="/uploads/{{ filename }}" width="300">
+    <br><br>
+    <a href="/">Try another image</a>
+</body>
+</html>
